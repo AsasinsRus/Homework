@@ -1,0 +1,11 @@
+Yurii Pashkevych 5 5 5
+Denys Havrilyuk 4 3 5
+Yaroslav Kuzmenko 5 5 5
+Sergii Ukrainzev 3 3 3
+Sergii Kolot 5 3 4
+Yaroslav Avtonomov 5 4 5
+Vlad Velykyi 3 4 5
+Oleksiy Leontiv 3 3 5
+Nazar Krutyi 3 2 4
+Ilya Loh 2 2 2
+Ruslan Mizai 5 5 5
