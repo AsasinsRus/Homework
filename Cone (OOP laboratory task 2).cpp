@@ -5,7 +5,7 @@
 
 using namespace std;
 
-class Cone // îïèñ êëàñó
+class Cone // Ð¾Ð¿Ð¸Ñ ÐºÐ»Ð°ÑÑƒ
 {
 int radius, height;
 
@@ -26,7 +26,7 @@ public:
         this->height = height;
     }
 
-    void set(int radius = 0, int height = 0) // ñêîðî÷åíå íàïèñàííÿ äëÿ êîíñòðóêòîð³â
+    void set(int radius = 0, int height = 0) // ÑÐºÐ¾Ñ€Ð¾Ñ‡ÐµÐ½Ðµ Ð½Ð°Ð¿Ð¸ÑÐ°Ð½Ð½Ñ Ð´Ð»Ñ ÐºÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€Ñ–Ð²
     {
         this->radius = radius;
         this->height = height;
@@ -54,11 +54,11 @@ public:
         "Volume: " << volume() << endl;
     }
 
-    friend ostream& operator<< (ostream &os, Cone &cone); // äðóæíÿ ôóíêö³ÿ ïåðåãðóçêè îïåðàòîðà
-    friend Cone frd(Cone cone1, Cone cone2); // äðóæíÿ ôóíêö³ÿ ç óìîâè
+    friend ostream& operator<< (ostream &os, Cone &cone); // Ð´Ñ€ÑƒÐ¶Ð½Ñ Ñ„ÑƒÐ½ÐºÑ†Ñ–Ñ Ð¿ÐµÑ€ÐµÐ³Ñ€ÑƒÐ·ÐºÐ¸ Ð¾Ð¿ÐµÑ€Ð°Ñ‚Ð¾Ñ€Ð°
+    friend Cone frd(Cone cone1, Cone cone2); // Ð´Ñ€ÑƒÐ¶Ð½Ñ Ñ„ÑƒÐ½ÐºÑ†Ñ–Ñ Ð· ÑƒÐ¼Ð¾Ð²Ð¸
 };
 
-ostream& operator<< (ostream &os, Cone &cone) // ïåðåãðóçêà îïåðàòîðà
+ostream& operator<< (ostream &os, Cone &cone) // Ð¿ÐµÑ€ÐµÐ³Ñ€ÑƒÐ·ÐºÐ° Ð¾Ð¿ÐµÑ€Ð°Ñ‚Ð¾Ñ€Ð°
 {
     os << "Height: " << cone.height << "\nRadius: " << cone.radius << endl;
     return os;
@@ -74,13 +74,13 @@ Cone frd(Cone cone1, Cone cone2)
 
 int main()
 {
-    Cone cone1(2,4); // ³í³ö³àë³çàö³ÿ êîíñòðóêòîðà ç ïàðàìåòðàìè
-    Cone cone2; // ³í³ö³àë³çàö³ÿ êîíñòðóêòîðà áåç ïàðàìåòð³â
+    Cone cone1(2,4); // Ñ–Ð½Ñ–Ñ†Ñ–Ð°Ð»Ñ–Ð·Ð°Ñ†Ñ–Ñ ÐºÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€Ð° Ð· Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ð°Ð¼Ð¸
+    Cone cone2; // Ñ–Ð½Ñ–Ñ†Ñ–Ð°Ð»Ñ–Ð·Ð°Ñ†Ñ–Ñ ÐºÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€Ð° Ð±ÐµÐ· Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ñ–Ð²
 
-    cout << "Cone 1:\n" << cone1; // âèêîðèñòàííÿ ïåðåãðóçêè îïåðàòîðà
+    cout << "Cone 1:\n" << cone1; // Ð²Ð¸ÐºÐ¾Ñ€Ð¸ÑÑ‚Ð°Ð½Ð½Ñ Ð¿ÐµÑ€ÐµÐ³Ñ€ÑƒÐ·ÐºÐ¸ Ð¾Ð¿ÐµÑ€Ð°Ñ‚Ð¾Ñ€Ð°
     cout << "\nCone 2:\n" << cone2;
 
-    cone2.set(4,5); // âèêîðèñòàííÿ ñåòòåðà äëÿ çàäàííÿ íîâèõ äàíèõ
+    cone2.set(4,5); // Ð²Ð¸ÐºÐ¾Ñ€Ð¸ÑÑ‚Ð°Ð½Ð½Ñ ÑÐµÑ‚Ñ‚ÐµÑ€Ð° Ð´Ð»Ñ Ð·Ð°Ð´Ð°Ð½Ð½Ñ Ð½Ð¾Ð²Ð¸Ñ… Ð´Ð°Ð½Ð¸Ñ…
 
     cout << "\nCone 1:\n" << cone2 << endl;
 
@@ -90,7 +90,7 @@ int main()
     cout << "\nCone 2: \n";
     cone2.print_val();
 
-    Cone buffer = frd(cone1, cone2); // âèêëèê äðóæíüî¿ ôóíêö³¿
+    Cone buffer = frd(cone1, cone2); // Ð²Ð¸ÐºÐ»Ð¸Ðº Ð´Ñ€ÑƒÐ¶Ð½ÑŒÐ¾Ñ— Ñ„ÑƒÐ½ÐºÑ†Ñ–Ñ—
 
     cout << "\nfrd result: \n" << buffer;
 
