@@ -1,5 +1,5 @@
 #define _USE_MATH_DEFINES
-
+ // Варіант 7
 #include <iostream>
 #include <math.h>
 
