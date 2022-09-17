@@ -1,9 +1,9 @@
-#include <iostream> // Варіант 12
+#include <iostream> // Р’Р°СЂС–Р°РЅС‚ 12
 #include <fstream>
 
 using namespace std;
 
-class Student // опис класу
+class Student // РѕРїРёСЃ РєР»Р°СЃСѓ
 {
     string name, surname;
     int noteMath, notePhysics, noteInformatica;
@@ -77,10 +77,10 @@ class Student // опис класу
             return noteInformatica;
         }
 
-        friend ostream& operator<< (ostream &os, Student &student); // дружня функція перегрузки оператора
+        friend ostream& operator<< (ostream &os, Student &student); // РґСЂСѓР¶РЅСЏ С„СѓРЅРєС†С–СЏ РїРµСЂРµРіСЂСѓР·РєРё РѕРїРµСЂР°С‚РѕСЂР°
 };
 
-ostream& operator<< (ostream &os, Student &student) // перегрузка оператора
+ostream& operator<< (ostream &os, Student &student) // РїРµСЂРµРіСЂСѓР·РєР° РѕРїРµСЂР°С‚РѕСЂР°
 {
     os << "Name: " << student.name << "\nSurname: " << student.surname <<
     "\nNote Math: " << student.noteMath << "\nNote Physics: " << student.notePhysics <<
@@ -94,39 +94,39 @@ int main()
 {
     int size = 0;
     string str;
-    ifstream file("data.txt"); // відкриття файлу
+    ifstream file("data.txt"); // РІС–РґРєСЂРёС‚С‚СЏ С„Р°Р№Р»Сѓ
 
-    if(file) // перевірка на те, чи відкрився файл
+    if(file) // РїРµСЂРµРІС–СЂРєР° РЅР° С‚Рµ, С‡Рё РІС–РґРєСЂРёРІСЃСЏ С„Р°Р№Р»
     {
-        while(!file.eof()) // перевірка чи дійшла каретка до кінця
+        while(!file.eof()) // РїРµСЂРµРІС–СЂРєР° С‡Рё РґС–Р№С€Р»Р° РєР°СЂРµС‚РєР° РґРѕ РєС–РЅС†СЏ
         {
-            getline(file, str, '\n'); // читання порядково файлу
+            getline(file, str, '\n'); // С‡РёС‚Р°РЅРЅСЏ РїРѕСЂСЏРґРєРѕРІРѕ С„Р°Р№Р»Сѓ
             size++;
         }
 
-        Student students[size]; // створення масиву об'єктів
-        file.clear(); // видалення знаку кінця файлу
-        file.seekg(0); // переведення кретки на початок
+        Student students[size]; // СЃС‚РІРѕСЂРµРЅРЅСЏ РјР°СЃРёРІСѓ РѕР±'С”РєС‚С–РІ
+        file.clear(); // РІРёРґР°Р»РµРЅРЅСЏ Р·РЅР°РєСѓ РєС–РЅС†СЏ С„Р°Р№Р»Сѓ
+        file.seekg(0); // РїРµСЂРµРІРµРґРµРЅРЅСЏ РєСЂРµС‚РєРё РЅР° РїРѕС‡Р°С‚РѕРє
 
         for(int i=0;i<size;i++)
         {
             string name, surname;
             int noteMath, notePh, noteInf;
 
-            file >> name >> surname >> noteMath >> notePh >> noteInf; // запис даних з файлу у змінні
+            file >> name >> surname >> noteMath >> notePh >> noteInf; // Р·Р°РїРёСЃ РґР°РЅРёС… Р· С„Р°Р№Р»Сѓ Сѓ Р·РјС–РЅРЅС–
 
-            students[i].set(name, surname, noteMath, notePh, noteInf); // запис змінних в об'єкт
+            students[i].set(name, surname, noteMath, notePh, noteInf); // Р·Р°РїРёСЃ Р·РјС–РЅРЅРёС… РІ РѕР±'С”РєС‚
         }
 
         for(int i=0;i<size;i++)
         {
-            if(students[i].getNoteMath() == 5 && students[i].getNotePhysics() == 5 && students[i].getNoteInformatica() == 5) // перевірка на 5
+            if(students[i].getNoteMath() == 5 && students[i].getNotePhysics() == 5 && students[i].getNoteInformatica() == 5) // РїРµСЂРµРІС–СЂРєР° РЅР° 5
             {
-                cout << "Student " << i+1 << endl << students[i] << endl; // вивід відповідних студентів на екран через перегруження оператора
+                cout << "Student " << i+1 << endl << students[i] << endl; // РІРёРІС–Рґ РІС–РґРїРѕРІС–РґРЅРёС… СЃС‚СѓРґРµРЅС‚С–РІ РЅР° РµРєСЂР°РЅ С‡РµСЂРµР· РїРµСЂРµРіСЂСѓР¶РµРЅРЅСЏ РѕРїРµСЂР°С‚РѕСЂР°
             }
         }
 
-        file.close(); // закриття файлу
+        file.close(); // Р·Р°РєСЂРёС‚С‚СЏ С„Р°Р№Р»Сѓ
     }
     else cout << "Unable to open file";
 
