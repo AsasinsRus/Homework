@@ -219,7 +219,6 @@ public:
 };
 
 
-
 int main()
 {
     Number num(2);
