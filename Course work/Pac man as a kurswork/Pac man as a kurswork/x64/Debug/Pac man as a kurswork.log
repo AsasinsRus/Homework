@@ -1,0 +1,69 @@
+﻿  SceneManager.cpp
+C:\Users\Yurii\Documents\Code\C++\Pac man as a kurswork\Pac man as a kurswork\SceneManager.cpp(125,143): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Yurii\Documents\Code\C++\Pac man as a kurswork\Pac man as a kurswork\SceneManager.cpp(125,113): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Yurii\Documents\Code\C++\Pac man as a kurswork\Pac man as a kurswork\SceneManager.cpp(134,139): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Yurii\Documents\Code\C++\Pac man as a kurswork\Pac man as a kurswork\SceneManager.cpp(134,109): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Yurii\Documents\Code\C++\Pac man as a kurswork\Pac man as a kurswork\SceneManager.cpp(156,28): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Yurii\Documents\Code\C++\Pac man as a kurswork\Pac man as a kurswork\SceneManager.cpp(157,28): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Yurii\Documents\Code\C++\Pac man as a kurswork\Pac man as a kurswork\SceneManager.cpp(158,28): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Yurii\Documents\Code\C++\Pac man as a kurswork\Pac man as a kurswork\SceneManager.cpp(162,29): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Yurii\Documents\Code\C++\Pac man as a kurswork\Pac man as a kurswork\SceneManager.cpp(163,31): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Yurii\Documents\Code\C++\Pac man as a kurswork\Pac man as a kurswork\SceneManager.cpp(172,30): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Yurii\Documents\Code\C++\Pac man as a kurswork\Pac man as a kurswork\SceneManager.cpp(307,137): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Yurii\Documents\Code\C++\Pac man as a kurswork\Pac man as a kurswork\SceneManager.cpp(307,107): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Yurii\Documents\Code\C++\Pac man as a kurswork\Pac man as a kurswork\SceneManager.cpp(329,28): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Yurii\Documents\Code\C++\Pac man as a kurswork\Pac man as a kurswork\SceneManager.cpp(330,28): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Yurii\Documents\Code\C++\Pac man as a kurswork\Pac man as a kurswork\SceneManager.cpp(331,28): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Yurii\Documents\Code\C++\Pac man as a kurswork\Pac man as a kurswork\SceneManager.cpp(335,29): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Yurii\Documents\Code\C++\Pac man as a kurswork\Pac man as a kurswork\SceneManager.cpp(336,31): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Yurii\Documents\Code\C++\Pac man as a kurswork\Pac man as a kurswork\SceneManager.cpp(346,30): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Yurii\Documents\Code\C++\Pac man as a kurswork\Pac man as a kurswork\SceneManager.cpp(427,5): warning C4305: аргумент: усечение из "double" в "float"
+  Pac man as a kurswork.vcxproj -> C:\Users\Yurii\Documents\Code\C++\Pac man as a kurswork\x64\Debug\Pac man as a kurswork.exe

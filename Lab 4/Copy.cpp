@@ -104,6 +104,7 @@ int negativeProduct(dynArrActions arr) // функція відповідно у
 int main()
 {
     dynArrActions arr(15); //ініціалізація об'єкту
+    arr.setLenght(19); //ініціалізація об'єкту
 
     cout << arr << endl << "Product negative: " << negativeProduct(arr) << endl;
 

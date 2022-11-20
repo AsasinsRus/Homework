@@ -44,7 +44,7 @@ public:
 
     BinaryNumber(int number) : Number(number){}
 
-    string get()
+    string get() override
     {
         return toBinary();
     }
@@ -135,7 +135,7 @@ public:
         this->number = number;
     }
 
-    virtual string get()
+    virtual string get() override
     {
         return toHexadecimal();
     }

@@ -37,7 +37,6 @@ public:
     List<T>& operator--();
     List<T>& operator--(int none);
 
-
 private:
 
     template<typename T1>
@@ -380,8 +379,6 @@ int main()
     {
         cout << lst[i] << endl;
     }
-
-
 
     return 0;
 }

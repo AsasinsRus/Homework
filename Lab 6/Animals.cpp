@@ -48,13 +48,6 @@ public:
         this->maxAge = maxAge;
     }
 
-    void set(string name = "", string livingEnvironment = "", int maxAge = 0)
-    {
-        this->name = name;
-        this->livingEnvironment = livingEnvironment;
-        this->maxAge = maxAge;
-    }
-
     friend ostream& operator<< (ostream &os, Animal &animal);
 };
 
@@ -84,14 +77,6 @@ public:
     void setBodyTemperature(float normalBodyTemperature = 0)
     {
         this->normalBodyTemperature = normalBodyTemperature;
-    }
-
-    void set(string name = "", string livingEnvironment = "", int maxAge = 0, float normalBodyTemperature = 0)
-    {
-        this->normalBodyTemperature = normalBodyTemperature;
-        this->name = name;
-        this->livingEnvironment = livingEnvironment;
-        this->maxAge = maxAge;
     }
 
     friend ostream& operator<< (ostream &os, Mammal &mammal);
@@ -126,15 +111,6 @@ public:
         this->hasHorns = hasHorns;
     }
 
-    void set(string name = "", string livingEnvironment = "", int maxAge = 0, bool hasHorns = false, float normalBodyTemperature = 0)
-    {
-        this->hasHorns = hasHorns;
-        this->normalBodyTemperature = normalBodyTemperature;
-        this->name = name;
-        this->livingEnvironment = livingEnvironment;
-        this->maxAge = maxAge;
-    }
-
     friend ostream& operator<< (ostream &os, Even_toed &even_toed);
 };
 
@@ -166,14 +142,6 @@ public:
     void setFly(bool canFly = false)
     {
         this->canFly = canFly;
-    }
-
-    void set(string name = "", string livingEnvironment = "", int maxAge = 0, bool canFly = false)
-    {
-        this->canFly = canFly;
-        this->name = name;
-        this->livingEnvironment = livingEnvironment;
-        this->maxAge = maxAge;
     }
 
     friend ostream& operator<< (ostream &os, Bird &bird);
