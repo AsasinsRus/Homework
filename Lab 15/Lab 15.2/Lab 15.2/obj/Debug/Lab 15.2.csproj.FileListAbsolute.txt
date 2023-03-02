@@ -1,0 +1,11 @@
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 15\Lab 15.2\Lab 15.2\bin\Debug\Lab 15.2.exe.config
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 15\Lab 15.2\Lab 15.2\bin\Debug\Lab 15.2.exe
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 15\Lab 15.2\Lab 15.2\bin\Debug\Lab 15.2.pdb
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 15\Lab 15.2\Lab 15.2\obj\Debug\Lab 15.2.csproj.AssemblyReference.cache
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 15\Lab 15.2\Lab 15.2\obj\Debug\Lab 15.2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 15\Lab 15.2\Lab 15.2\obj\Debug\Lab_15._2.Form1.resources
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 15\Lab 15.2\Lab 15.2\obj\Debug\Lab_15._2.Properties.Resources.resources
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 15\Lab 15.2\Lab 15.2\obj\Debug\Lab 15.2.csproj.GenerateResource.cache
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 15\Lab 15.2\Lab 15.2\obj\Debug\Lab 15.2.csproj.CoreCompileInputs.cache
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 15\Lab 15.2\Lab 15.2\obj\Debug\Lab 15.2.exe
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 15\Lab 15.2\Lab 15.2\obj\Debug\Lab 15.2.pdb

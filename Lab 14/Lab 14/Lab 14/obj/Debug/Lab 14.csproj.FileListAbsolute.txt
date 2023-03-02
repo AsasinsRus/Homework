@@ -1,0 +1,8 @@
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 14\Lab 14\Lab 14\bin\Debug\Lab 14.exe.config
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 14\Lab 14\Lab 14\bin\Debug\Lab 14.exe
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 14\Lab 14\Lab 14\bin\Debug\Lab 14.pdb
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 14\Lab 14\Lab 14\obj\Debug\Lab 14.csproj.AssemblyReference.cache
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 14\Lab 14\Lab 14\obj\Debug\Lab 14.csproj.SuggestedBindingRedirects.cache
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 14\Lab 14\Lab 14\obj\Debug\Lab 14.csproj.CoreCompileInputs.cache
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 14\Lab 14\Lab 14\obj\Debug\Lab 14.exe
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 14\Lab 14\Lab 14\obj\Debug\Lab 14.pdb
