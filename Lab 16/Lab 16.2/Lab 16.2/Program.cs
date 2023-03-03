@@ -25,7 +25,7 @@ namespace Lab_16._2
 
         static void Main(string[] args)
         {
-            keyPressed(PrintMyName, ConsoleKey.E);
+            keyPressed(PrintMyName, ConsoleKey.Y);
 
             Console.ReadKey();
         }

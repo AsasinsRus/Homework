@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Trapez xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TopBase>100</TopBase>
+  <BottomBase>200</BottomBase>
+  <Height>100</Height>
+</Trapez>

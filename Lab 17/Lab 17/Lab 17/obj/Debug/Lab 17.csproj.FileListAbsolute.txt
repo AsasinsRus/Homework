@@ -1,0 +1,11 @@
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 17\Lab 17\Lab 17\bin\Debug\Lab 17.exe.config
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 17\Lab 17\Lab 17\bin\Debug\Lab 17.exe
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 17\Lab 17\Lab 17\bin\Debug\Lab 17.pdb
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 17\Lab 17\Lab 17\obj\Debug\Lab 17.csproj.AssemblyReference.cache
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 17\Lab 17\Lab 17\obj\Debug\Lab 17.csproj.SuggestedBindingRedirects.cache
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 17\Lab 17\Lab 17\obj\Debug\Lab_17.Form1.resources
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 17\Lab 17\Lab 17\obj\Debug\Lab_17.Properties.Resources.resources
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 17\Lab 17\Lab 17\obj\Debug\Lab 17.csproj.GenerateResource.cache
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 17\Lab 17\Lab 17\obj\Debug\Lab 17.csproj.CoreCompileInputs.cache
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 17\Lab 17\Lab 17\obj\Debug\Lab 17.exe
+C:\Users\Yurii\Documents\GitHub\Homework\Lab 17\Lab 17\Lab 17\obj\Debug\Lab 17.pdb
